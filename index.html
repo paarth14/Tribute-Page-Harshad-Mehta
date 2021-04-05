@@ -9,15 +9,49 @@
 
   <style>
 
-    body{
-        background: url("images/bgr tribute.jpg") no-repeat center center fixed;
-        -webkit-background-size: cover;
-        color: seashell;
-        font-weight: bolder;
+  .bg-image {
+      /* The image used */
+      background-image: url("/images/bgr5.jpg");
+
+      /* Add the blur effect */
+      filter: blur(8px);
+      -webkit-filter: blur(8px);
+
+      /* Full height */
+      height: 300%;
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
+
+    body,html {
+      height: 100%;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .bg-text {
+      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.4);
+      color: white;
+      font-weight: bold;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 10%;
+      left: 10%;
+      width: 80%;
+      padding: 20px;
+      text-align: center;
+    }
+
     .headingName h1 {
       text-align: center;
       text-decoration: underline;
+      font-size: 49px;
     }
 
     .headingName h2 {
@@ -68,6 +102,11 @@
         /* text-decoration: underline; */
     }
 
+    .video1 {
+    height: 495px;
+    width: 395px;
+  }
+
     .midVideo .center{
         margin-left: auto;
         margin-right: auto;
@@ -77,77 +116,84 @@
     
   </style>
   <body>
-    <div class="headingName">
-      <h1>Harshad Shantilal Mehta</h1>
-      <!-- <br> -->
-      <h2>29<sup>th</sup> July 1954 - 31<sup>st</sup> December 2001</h2>
-      <h2>"The Big Bull of Dalal Street"</h2>
-    </div>
 
-    <div class="imageSection">
-      <img src="./images/Harshad mehta.jpg"
-      alt="Error Loading Image"
-      class="center">
-    </div>
+    <div class="bg-image"></div>
 
-    <div class="content">
-      <p><strong>Harshad Shantilal Mehta was an Indian stockbroker. Mehta’s
-        involvement in the 1992 Indian securities scam made him infamous as a
-        market manipulator. Although, as reported by the Economic Times, some
-        financial experts believe that Harshad Mehta did not commit any fraud,
-        he had "simply exploited loop holes in the system".</strong></p>
-    </div>
+    <div class="bg-text">
 
-    <br>
+      <div class="headingName">
+        <h1>Harshad Shantilal Mehta</h1>
+        <!-- <br> -->
+        <h2>29<sup>th</sup> July 1954 - 31<sup>st</sup> December 2001</h2>
+        <h2>"The Big Bull of Dalal Street"</h2>
+      </div>
 
-    <div class="earlyLife">
-      <ul>
-        <h3>Life & Education :-</h3>
-        <li>
-          Harshad Shantilal Mehta was born on 29 July 1954, at Paneli Moti,
-          Rajkot district, in a Gujarati Jain family.
-        </li>
-        <li>
-          His early childhood was spent in Borivali, where his father was a
-          small-time textile businessman.He did his early study in Janta Public
-          School, Camp 2 Bhilai.
-        </li>
-        <li>
-          His early childhood was spent in Borivali, where his father was a
-          small-time textile businessman.He did his early study in Janta Public
-          School, Camp 2 Bhilai. A cricket enthusiast, Mehta did not show any
-          special promise in school and came to Mumbai after his schooling for
-          studies and to find work.
-        </li>
-        <li>
-          Mehta completed his B.Com in 1976 from Lala Lajpatrai College, Bombay
-          and worked a number of odd jobs for the next eight years.
-        </li>
-      </ul>
-    </div>
+      <div class="imageSection">
+        <img src="./images/Harshad mehta.jpg"
+        alt="Error Loading Image"
+        class="center">
+      </div>
 
-    <div class="midVideo">
-        <video class="center" width="700" height="400" controls>
-            <source src="./video/harshad mehta video 2.mp4" type="video/mp4">
-        </video>
-    </div>
+      <div class="content">
+        <p><strong>Harshad Shantilal Mehta was an Indian stockbroker. Mehta’s
+          involvement in the 1992 Indian securities scam made him infamous as a
+          market manipulator. Although, as reported by the Economic Times, some
+          financial experts believe that Harshad Mehta did not commit any fraud,
+          he had "simply exploited loop holes in the system".</strong></p>
+      </div>
 
-    <div class="bankCase">
+      <br>
+
+      <div class="earlyLife">
         <ul>
-          <h3>Financial Scam :-</h3>
+          <h3>Life & Education :-</h3>
           <li>
-            It was alleged that Mehta engaged in a massive stock manipulation scheme financed by worthless bank receipts, which his firm brokered for "ready forward" transactions between banks. 
+            Harshad Shantilal Mehta was born on 29 July 1954, at Paneli Moti,
+            Rajkot district, in a Gujarati Jain family.
           </li>
           <li>
-            Mehta was convicted by the Bombay High Court and the Supreme Court of India, for his part in a financial scandal valued at ₹100 billion (US$1.4 billion) which took place on the Bombay Stock Exchange (BSE).
+            His early childhood was spent in Borivali, where his father was a
+            small-time textile businessman.He did his early study in Janta Public
+            School, Camp 2 Bhilai.
           </li>
           <li>
-            The scandal exposed the loopholes in the Indian banking system and the Bombay Stock Exchange (BSE) transaction system, and consequently the SEBI introduced new rules to cover those loopholes. He was on trial for 9 years, until he died at the end of 2001.
+            His early childhood was spent in Borivali, where his father was a
+            small-time textile businessman.He did his early study in Janta Public
+            School, Camp 2 Bhilai. A cricket enthusiast, Mehta did not show any
+            special promise in school and came to Mumbai after his schooling for
+            studies and to find work.
           </li>
           <li>
-            <em>Mehta's life and his 1992 scam are covered in great detail by Sucheta Dalal and Debashis Basu in their book The Scam: from Harshad Mehta To Ketan Parekh.</em>
+            Mehta completed his B.Com in 1976 from Lala Lajpatrai College, Bombay
+            and worked a number of odd jobs for the next eight years.
           </li>
         </ul>
       </div>
+
+      <div class="midVideo">
+          <video class="video1 center" controls>
+              <source src="./video/harshad mehta video 2.mp4" type="video/mp4">
+          </video>
+      </div>
+
+      <div class="bankCase">
+          <ul>
+            <h3>Financial Scam :-</h3>
+            <li>
+              It was alleged that Mehta engaged in a massive stock manipulation scheme financed by worthless bank receipts, which his firm brokered for "ready forward" transactions between banks. 
+            </li>
+            <li>
+              Mehta was convicted by the Bombay High Court and the Supreme Court of India, for his part in a financial scandal valued at ₹100 billion (US$1.4 billion) which took place on the Bombay Stock Exchange (BSE).
+            </li>
+            <li>
+              The scandal exposed the loopholes in the Indian banking system and the Bombay Stock Exchange (BSE) transaction system, and consequently the SEBI introduced new rules to cover those loopholes. He was on trial for 9 years, until he died at the end of 2001.
+            </li>
+            <li>
+              <em>Mehta's life and his 1992 scam are covered in great detail by Sucheta Dalal and Debashis Basu in their book The Scam: from Harshad Mehta To Ketan Parekh.</em>
+            </li>
+          </ul>
+        </div>
+
+    </div>
   </body>
 </html>
